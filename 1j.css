@@ -1,0 +1,14 @@
+#chanB{
+    background-color: rgb(153, 153, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    border: none;
+   
+}
+/* #chanB:hover{
+    background-color: seagreen;
+} */
+#chanB.active-color{
+    background-color: darkblue;
+}
