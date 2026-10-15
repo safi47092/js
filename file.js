@@ -12,3 +12,13 @@ button.textContent="Rahma Qurux❤️";
     }
     
 });
+const inputA= document.getElementById("a");
+const inputB= document.getElementById("b");
+const r= document.getElementById("r");
+document.getElementById("add-btn");
+document.getElementById("add-btn").addEventListener("click",()=> {
+const a=Number(inputA.value);
+const b=Number(inputB.value);
+r.textContent=String(a+b);
+
+});
